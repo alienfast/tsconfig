@@ -36,5 +36,6 @@
       "first-time-contributor",
       "released"
     ]
-  }
+  },
+  "packageManager": "yarn@3.5.0"
 }
