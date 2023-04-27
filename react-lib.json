@@ -3,7 +3,7 @@
 
   "display": "React-lib shared base, uses tsc instead of babel for compilation",
 
-  "extends": "./tsconfig.react.json",
+  "extends": "./react.json",
   "compilerOptions": {
     "moduleResolution": "node",
 
