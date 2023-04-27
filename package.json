@@ -1,0 +1,41 @@
+{
+  "name": "@alienfast/tsconfig",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./node.json",
+  "exports": {
+    "./node.json": "./node.json",
+    "./react-lib.json": "./react-lib.json",
+    "./react.json": "./react.json"
+  },
+  "scripts": {
+    "release": "yarn auto shipit"
+  },
+  "dependencies": {
+    "@tsconfig/create-react-app": "^1.0.3"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/alienfast/tsconfig",
+  "author": "Kevin Ross <kevin.ross@alienfast.com>",
+  "devDependencies": {
+    "@auto-it/all-contributors": "^10.46.0",
+    "@auto-it/first-time-contributor": "^10.46.0",
+    "@auto-it/released": "^10.46.0",
+    "auto": "^10.46.0"
+  },
+  "auto": {
+    "plugins": [
+      "npm",
+      "all-contributors",
+      "first-time-contributor",
+      "released"
+    ]
+  },
+  "packageManager": "yarn@3.5.0"
+}
