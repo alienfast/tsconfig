@@ -1,3 +1,15 @@
+# v1.0.4 (Wed Jan 22 2025)
+
+#### ⚠️ Pushed to `main`
+
+- export nodenext config ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.3 (Wed Jan 22 2025)
 
 #### 🐛 Bug Fix
