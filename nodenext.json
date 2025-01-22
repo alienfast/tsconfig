@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+
+  "display": "NodeNext shared base.",
+
+  "extends": "./node.json",
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "module": "NodeNext"
+  }
+}
