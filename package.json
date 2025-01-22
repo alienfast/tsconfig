@@ -5,6 +5,7 @@
   "main": "./node.json",
   "exports": {
     "./node.json": "./node.json",
+    "./nodenext.json": "./nodenext.json",
     "./react-lib.json": "./react-lib.json",
     "./react.json": "./react.json"
   },
