@@ -1,3 +1,15 @@
+# v1.0.3 (Wed Jan 22 2025)
+
+#### 🐛 Bug Fix
+
+- update docs, add nodenext config [#3](https://github.com/alienfast/tsconfig/pull/3) ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.2 (Wed Jan 22 2025)
 
 #### 🐛 Bug Fix
