@@ -12,7 +12,7 @@
     "release": "yarn auto shipit"
   },
   "dependencies": {
-    "@tsconfig/create-react-app": "^1.0.3"
+    "@tsconfig/create-react-app": "^2.0.5"
   },
   "engines": {
     "node": ">=16"
@@ -24,10 +24,10 @@
   "repository": "https://github.com/alienfast/tsconfig",
   "author": "Kevin Ross <kevin.ross@alienfast.com>",
   "devDependencies": {
-    "@auto-it/all-contributors": "^10.46.0",
-    "@auto-it/first-time-contributor": "^10.46.0",
-    "@auto-it/released": "^10.46.0",
-    "auto": "^10.46.0"
+    "@auto-it/all-contributors": "^11.3.0",
+    "@auto-it/first-time-contributor": "^11.3.0",
+    "@auto-it/released": "^11.3.0",
+    "auto": "^11.3.0"
   },
   "auto": {
     "plugins": [
@@ -37,5 +37,5 @@
       "released"
     ]
   },
-  "packageManager": "yarn@3.5.0"
+  "packageManager": "yarn@4.6.0"
 }
