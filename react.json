@@ -5,14 +5,15 @@
   "extends": "@tsconfig/create-react-app/tsconfig.json",
 
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     // All packages should be ESM, only the final webpack should be different.
     "target": "esnext",
     "module": "esnext",
-    // Final webpack should target modern browsers instead of es5 with es2015
-    // "target": "es2015",
-
-    // Do not allow js
-    "allowJs": false,
+    "moduleResolution": "bundler",
+    // React/JSX configuration
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "maxNodeModuleJsDepth": 10,
     // No js, ts, maps when errors are reported
     "noEmitOnError": true,
     // Do not allow inference to fall back to any type
@@ -21,6 +22,7 @@
     "noImplicitReturns": true,
     // Report errors on unused local variables.
     "noUnusedLocals": false,
+    // Resolve JSON modules for imports
     "resolveJsonModule": true,
     // obj[foo] suppression
     // "suppressImplicitAnyIndexErrors": true,  -- deprecated in 5.0
@@ -32,9 +34,6 @@
     "declarationMap": true,
     // Ensure that Babel can safely transpile files in the TypeScript project
     "isolatedModules": true,
-
-    // material-ui uses emotion https://emotion.sh/docs/typescript
-    // "jsxImportSource": "@emotion/react",  NEED for mui 5.x
 
     // https://github.com/jquense/yup#typescript-configuration
     "strictFunctionTypes": false,
