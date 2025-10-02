@@ -1,3 +1,15 @@
+# v1.0.7 (Thu Oct 02 2025)
+
+#### ⚠️ Pushed to `main`
+
+- add biome, default noEmit for react ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.6 (Thu Oct 02 2025)
 
 #### ⚠️ Pushed to `main`
