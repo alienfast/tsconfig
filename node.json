@@ -4,7 +4,6 @@
   "compilerOptions": {
     "allowImportingTsExtensions": true,
     "allowJs": true,
-
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "esModuleInterop": true,
@@ -13,6 +12,7 @@
     "maxNodeModuleJsDepth": 10,
     "module": "esnext",
     "moduleResolution": "node",
+    "noEmit": true,
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
