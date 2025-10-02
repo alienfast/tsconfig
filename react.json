@@ -12,12 +12,12 @@
     "maxNodeModuleJsDepth": 10,
     "module": "esnext",
     "moduleResolution": "bundler",
+    "noEmit": true,
     "noEmitOnError": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": false,
     "resolveJsonModule": true,
-    // https://github.com/jquense/yup#typescript-configuration
     "strictFunctionTypes": false,
     "target": "esnext",
     "useDefineForClassFields": true

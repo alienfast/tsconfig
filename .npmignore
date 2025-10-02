@@ -1,0 +1,8 @@
+# this is copied down to each package
+
+.DS_Store
+*.md
+.yarn*
+yarn*
+biome*
+.github

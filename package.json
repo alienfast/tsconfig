@@ -1,35 +1,5 @@
 {
-  "name": "@alienfast/tsconfig",
-  "version": "1.0.6",
-  "type": "module",
-  "main": "./node.json",
-  "exports": {
-    "./node.json": "./node.json",
-    "./nodenext.json": "./nodenext.json",
-    "./react-lib.json": "./react-lib.json",
-    "./react.json": "./react.json"
-  },
-  "scripts": {
-    "release": "yarn auto shipit"
-  },
-  "dependencies": {
-    "@tsconfig/create-react-app": "^2.0.5"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "license": "MIT",
-  "repository": "https://github.com/alienfast/tsconfig",
   "author": "Kevin Ross <kevin.ross@alienfast.com>",
-  "devDependencies": {
-    "@auto-it/all-contributors": "^11.3.0",
-    "@auto-it/first-time-contributor": "^11.3.0",
-    "@auto-it/released": "^11.3.0",
-    "auto": "^11.3.0"
-  },
   "auto": {
     "plugins": [
       "npm",
@@ -38,5 +8,36 @@
       "released"
     ]
   },
-  "packageManager": "yarn@4.6.0"
+  "dependencies": {
+    "@tsconfig/create-react-app": "^2.0.5"
+  },
+  "devDependencies": {
+    "@alienfast/biome-config": "^1.0.3",
+    "@auto-it/all-contributors": "^11.3.0",
+    "@auto-it/first-time-contributor": "^11.3.0",
+    "@auto-it/released": "^11.3.0",
+    "auto": "^11.3.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "exports": {
+    "./node.json": "./node.json",
+    "./nodenext.json": "./nodenext.json",
+    "./react-lib.json": "./react-lib.json",
+    "./react.json": "./react.json"
+  },
+  "license": "MIT",
+  "main": "./node.json",
+  "name": "@alienfast/tsconfig",
+  "packageManager": "yarn@4.6.0",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": "https://github.com/alienfast/tsconfig",
+  "scripts": {
+    "release": "yarn auto shipit"
+  },
+  "type": "module",
+  "version": "1.0.6"
 }

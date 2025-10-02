@@ -5,10 +5,20 @@ __metadata:
   version: 8
   cacheKey: 10
 
+"@alienfast/biome-config@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@alienfast/biome-config@npm:1.0.3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40alienfast%2Fbiome-config%2F1.0.3%2F78f0ac8909e34ea964ec4ea468de0d04be358e8b"
+  peerDependencies:
+    "@biomejs/biome": "*"
+  checksum: 10/f90f91c11d8acf46dc549f582f223a2ee8064047825d795620d9d33167b375bdf824fe695562d1fc5480c40ff095be116049acba6e4c452c1cc6e45bb1782235
+  languageName: node
+  linkType: hard
+
 "@alienfast/tsconfig@workspace:.":
   version: 0.0.0-use.local
   resolution: "@alienfast/tsconfig@workspace:."
   dependencies:
+    "@alienfast/biome-config": "npm:^1.0.3"
     "@auto-it/all-contributors": "npm:^11.3.0"
     "@auto-it/first-time-contributor": "npm:^11.3.0"
     "@auto-it/released": "npm:^11.3.0"

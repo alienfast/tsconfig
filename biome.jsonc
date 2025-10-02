@@ -1,0 +1,13 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.5/schema.json",
+  "extends": ["@alienfast/biome-config/base", "@alienfast/biome-config/react"],
+  "files": {
+    "includes": [
+      "**/*",
+      "!typings-local/**/*", // complains about augmentations being unused
+      "!typings/**/*", // complains about augmentations being unused
+      "!packages/graphql/src", // terrible for performance, doesn't matter anyway!,
+      "!packages/notifications/src/__tests__/__generated__/*" // generated files
+    ]
+  }
+}

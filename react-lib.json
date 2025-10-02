@@ -1,12 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "sourceMap": true
+  },
 
   "display": "React-lib shared base, uses tsc instead of babel for compilation",
 
-  "extends": "./react.json",
-  "compilerOptions": {
-    "noEmit": false,
-    "emitDeclarationOnly": false,
-    "sourceMap": true
-  }
+  "extends": "./react.json"
 }
