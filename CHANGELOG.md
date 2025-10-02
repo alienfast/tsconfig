@@ -1,3 +1,15 @@
+# v1.0.6 (Thu Oct 02 2025)
+
+#### ⚠️ Pushed to `main`
+
+- cleanup comments, remove module resolution node from react-lib ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.5 (Thu Oct 02 2025)
 
 #### ⚠️ Pushed to `main`
