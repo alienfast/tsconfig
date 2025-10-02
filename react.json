@@ -1,44 +1,28 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
 
-  "display": "React shared base",
-  "extends": "@tsconfig/create-react-app/tsconfig.json",
-
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    // All packages should be ESM, only the final webpack should be different.
-    "target": "esnext",
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "maxNodeModuleJsDepth": 10,
     "module": "esnext",
     "moduleResolution": "bundler",
-    // React/JSX configuration
-    "jsx": "react-jsx",
-    "allowJs": true,
-    "maxNodeModuleJsDepth": 10,
-    // No js, ts, maps when errors are reported
     "noEmitOnError": true,
-    // Do not allow inference to fall back to any type
     "noImplicitAny": true,
-    // Ensure a return path
     "noImplicitReturns": true,
-    // Report errors on unused local variables.
     "noUnusedLocals": false,
-    // Resolve JSON modules for imports
     "resolveJsonModule": true,
-    // obj[foo] suppression
-    // "suppressImplicitAnyIndexErrors": true,  -- deprecated in 5.0
-
-    // Ensure that .d.ts files are created by tsc, but not .js files (babel will do this for us)
-    "declaration": true,
-    "emitDeclarationOnly": true,
-    // Generates a source map for .d.ts files which map back to the original .ts source file.
-    "declarationMap": true,
-    // Ensure that Babel can safely transpile files in the TypeScript project
-    "isolatedModules": true,
-
     // https://github.com/jquense/yup#typescript-configuration
     "strictFunctionTypes": false,
-
-    // vite suggestions
+    "target": "esnext",
     "useDefineForClassFields": true
-  }
+  },
+
+  "display": "React shared base",
+  "extends": "@tsconfig/create-react-app/tsconfig.json"
 }

@@ -5,8 +5,6 @@
 
   "extends": "./react.json",
   "compilerOptions": {
-    "moduleResolution": "node",
-
     "noEmit": false,
     "emitDeclarationOnly": false,
     "sourceMap": true
