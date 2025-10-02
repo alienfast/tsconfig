@@ -1,3 +1,15 @@
+# v1.0.8 (Thu Oct 02 2025)
+
+#### ⚠️ Pushed to `main`
+
+- add noEmit to node ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.7 (Thu Oct 02 2025)
 
 #### ⚠️ Pushed to `main`
