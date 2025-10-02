@@ -1,6 +1,6 @@
 {
   "name": "@alienfast/tsconfig",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "type": "module",
   "main": "./node.json",
   "exports": {
