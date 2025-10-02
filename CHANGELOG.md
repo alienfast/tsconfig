@@ -1,3 +1,15 @@
+# v1.0.5 (Thu Oct 02 2025)
+
+#### ⚠️ Pushed to `main`
+
+- move up common settings from js ([@rosskevin](https://github.com/rosskevin))
+
+#### Authors: 1
+
+- Kevin Ross ([@rosskevin](https://github.com/rosskevin))
+
+---
+
 # v1.0.4 (Wed Jan 22 2025)
 
 #### ⚠️ Pushed to `main`
